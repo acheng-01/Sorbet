@@ -1,0 +1,31 @@
+.surveynew-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+    border: 1px solid rgb(255, 153, 51);
+    border-radius: 8px;
+}
+
+.surveynew-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin-bottom: 2px;
+    color: rgb(55, 55, 55);
+}
+
+.surveynew-container h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: rgb(55, 55, 55);
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.form-review-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-review-container h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.review-fields {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-container-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.field-container-2 label {
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(55, 55, 55);
+}
+
+.entry {
+    text-align: center;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+}

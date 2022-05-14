@@ -1,0 +1,122 @@
+.surveylist-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greeting {
+    width: 75%;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greeting h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.greeting h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 20px;
+    color: rgb(61, 61, 61);
+}
+
+.dashboard-greeting {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-greeting h2 {
+    width: 75%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(100, 100, 100);
+    text-shadow: -1px 1px 1px rgb(215, 215, 215);
+}
+
+.content-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: rgb(253, 176, 98);
+    border-radius: 7px;
+    padding: 15px 0;
+    box-shadow: 0 1px 1px rgb(181, 181, 181);
+}
+
+.card-content {
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-content p {
+    font-size: 15px;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.date-sent {
+    margin-top: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.card-action {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.card-action a {
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.bottom-info {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    width: 32px;
+    height: 32px;
+    padding: 5px 7px;
+    background-color: rgb(255, 118, 118);
+    color: rgb(61, 61, 61);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.delete:hover {
+    cursor: pointer;
+    background-color: rgb(251, 89, 89);
+}

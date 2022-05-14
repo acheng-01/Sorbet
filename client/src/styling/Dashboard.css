@@ -1,0 +1,28 @@
+.dashboard-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fixed-action-btn {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.add-survey-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(110, 208, 110);
+    box-shadow: -1px 2px 2px grey;
+    color: white;
+}
+
+.add-survey-btn:hover {
+    cursor: pointer;
+    background-color: rgb(98, 187, 98);
+}

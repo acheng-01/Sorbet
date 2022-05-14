@@ -1,0 +1,13 @@
+.cancel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cancel-container h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
