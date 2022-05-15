@@ -1,5 +1,5 @@
 # Sorbet
-Link to final app: https://stormy-fjord-11394.herokuapp.com/
+Link to live app: https://stormy-fjord-11394.herokuapp.com/
 
 ## Overview
 Sorbet is a RESTful web application that allows users to create their own surveys and mass distribute them to participants for
