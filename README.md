@@ -63,10 +63,10 @@ module.exports = {
 }
 ```
 (`cookieKey` can be anything you set it to. `redirectDomain` should be the same localhost port you are using server-side.
-By default it should be set to http://localhost:5001. For all the other keys, please see the asteriks below.)
+By default it should be set to http://localhost:3000. For all the other keys, please see the asteriks below.)
 
 5. Run `npm run dev`. Your terminal should start listening for activity on PORT 5001. The web page should also start itself
-on your default browser as http://localhost:5001. Of course, you are welcome to change the listening port. This can be done
+on your default browser as http://localhost:3000. Of course, you are welcome to change the listening port. This can be done
 in the `index.js` file in the root server directory.
 
 * Instructions are assuming that npm and NodeJS (and git, optional) are already installed on your machine. If you do not have
@@ -75,8 +75,8 @@ these, please visit https://docs.npmjs.com/downloading-and-installing-node-js-an
 ** You will need to have or set up an account with Google, Sendgrid, Stripe, MongoDB, and Ngrok for everything to work. Here are
 a few links to help you obtain all the keys needed:
 - https://console.developers.google.com/ (Start a new project, make sure to configure Oauth consent and Oauth credentials to
-get the client ID and client secret. When prompted by the credentials screen, set Javascript origin to `http://localhost:5001`
-and redirect URL to `http://localhost:5001/auth/google/callback`. Finishing these steps should give you the `googleClientID`
+get the client ID and client secret. When prompted by the credentials screen, set Javascript origin to `http://localhost:3000`
+and redirect URL to `http://localhost:3000/auth/google/callback`. Finishing these steps should give you the `googleClientID`
 and `googleClientSecret` to add to `dev.js`.)
 - https://stripe.com/ (The Stripe secret key, or `stripeApiSecret` should be waiting for you on your dashboard after creating
 an account. This is NOT the same as the endpoint secret. See asterisks below.)
