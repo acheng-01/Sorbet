@@ -6,6 +6,8 @@ Sorbet is a RESTful web application that allows users to create their own survey
 feedback. It also uses a credit system that keeps track of user credits, which enables the user to send the surveys. Javascript
 is used as the coding language for this app.
 
+![](https://github.com/acheng-01/Sorbet/blob/main/Sorbet-Sample.gif)
+
 On the client side, ReactJS is used as the primary library for faster rendering, generated through Create-React-App. A few other
 technologies used on the client side include:
 - Redux (for app-wide state management)
